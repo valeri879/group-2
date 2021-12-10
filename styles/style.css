@@ -33,9 +33,26 @@ a:hover {
     background-color: navy;
 }
 
-ul,
-ol {
+ul {
     padding-left: 20px;
+    font-size: 16px;
+}
+
+.list-1 {
+    color: blueviolet;
+}
+
+.list-2 {
+    color: chocolate;
+}
+
+.list-1.list-bg-color-red {
+    background-color: darkblue;
+}
+
+li.active {
+    color: red;
+    font-weight: bold;
 }
 
 table {
